@@ -104,3 +104,7 @@ An interactive Power BI dashboard was developed to explore fraud patterns in the
 - SQL query used to generate the data: `sql/06_powerbi_dashboard_data.sql`
 
 To view the dashboard, download the `.pbix` file and open it in Power BI Desktop. The dataset is synthetic, so the findings should not be interpreted as guaranteed performance on real-world financial transactions.
+
+### Dashboard Preview
+
+![Power BI Mobile Money Fraud Dashboard](reports/powerbi_dashboard.png)
