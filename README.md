@@ -86,3 +86,21 @@ mobile-money-fraud-intelligence/
 ## Tools
 
 Python, pandas, NumPy, Matplotlib, Seaborn, scikit-learn, Jupyter Notebook, SQL, Git, and GitHub.
+
+## Power BI Dashboard
+
+An interactive Power BI dashboard was developed to explore fraud patterns in the PaySim mobile-money transaction dataset.
+
+**Dashboard features**
+- KPI cards for total transactions, fraud-labeled transactions, and overall fraud rate.
+- Fraud counts by transaction type.
+- Fraud activity over simulation time.
+- Comparison of fraud cases across the first and second halves of the simulation.
+- Interactive slicers for transaction type and time period.
+
+**Files**
+- Power BI report: `reports/mobile_money_fraud_dashboard.pbix`
+- Aggregated dashboard data: `reports/powerbi_dashboard_data.csv`
+- SQL query used to generate the data: `sql/06_powerbi_dashboard_data.sql`
+
+To view the dashboard, download the `.pbix` file and open it in Power BI Desktop. The dataset is synthetic, so the findings should not be interpreted as guaranteed performance on real-world financial transactions.
